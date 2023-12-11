@@ -227,6 +227,11 @@ h1{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .wrapper {
+        width: auto;
+        max-width: auto;
+        height: auto;
+    }
     .tab-container {
         flex-direction: column;
         align-items: center;
@@ -235,6 +240,7 @@ h1{
     .grant-location-container,
     .user-info-container,
     .form-container {
+        margin-top: 30px;
         width: 100%;
         max-width: none;
     }
@@ -247,6 +253,10 @@ h1{
         width: 100%;
         max-width: none;
         margin-bottom: 1rem;
+    }
+
+    .weather-container {
+        margin-block: 0.5px; 
     }
 }
 
