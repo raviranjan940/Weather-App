@@ -227,32 +227,108 @@ h1{
     margin-bottom: 1px;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .wrapper {
-        height: auto;
+
+
+/* Mobile Devices (up to 767px) */
+@media screen and (max-width: 767px) {
+    
+
+    h1 {
+        padding-top: 10px;
     }
+
     .tab-container {
+        width: 100%;
+        margin-top: 2rem;
         flex-direction: column;
         align-items: center;
     }
 
-    .grant-location-container,
-    .user-info-container,
-    .form-container {
-        margin-top: 30px;
+    .tab {
+        padding: 8px;
+        margin-bottom: 8px;
+    }
+
+    .weather-container {
+        margin-block: 2rem;
+    }
+
+    .btn {
+        width: 27%;
+        font-size: 0.75rem;
+        padding: 10px;
+    }
+
+    .grant-location-container p:first-of-type {
+        font-size: 1.5rem;
+    }
+
+    .grant-location-container p:last-of-type {
+        font-size: 0.75rem;
+        margin-bottom: 1rem;
+    }
+
+    .loading-container p {
+        font-size: 0.75rem;
+    }
+
+    .user-info-container p {
+        font-size: 1rem;
+    }
+
+    .name {
+        margin-bottom: 0.5rem;
+    }
+
+    .name p {
+        font-size: 1.25rem;
+    }
+
+    .name img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .user-info-container p[data-temp] {
+        font-size: 1.5rem;
+    }
+
+    .parameter-container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .parameter {
         width: 100%;
         max-width: none;
     }
 
-    .parameter-container {
-        flex-direction: column;
+    .parameter img {
+        width: 30px;
+        height: 30px;
     }
 
-    .parameter {
-        width: 90%;
-        max-width: none;
-        margin-bottom: 1rem;
+    .parameter p:first-of-type {
+        font-size: 1rem;
     }
+
+    .parameter p:last-of-type {
+        font-size: 0.85rem;
+    }
+
+    .form-container {
+        margin-bottom: 0.5rem;
+    }
+
+    .form-container input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .form-container .btn {
+        width: 70px;
+        height: 44px;
+        font-size: 1rem;
+    }
+
 }
-
