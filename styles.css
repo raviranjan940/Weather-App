@@ -12,6 +12,9 @@
     --colorLight2: #F9F7F7;
 }
 
+body{
+    height: 100vh;
+}
 .wrapper{
     width: 100vw;
     height: 100vh;
@@ -227,7 +230,6 @@ h1{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .wrapper {
-        width: auto;
         height: auto;
     }
     .tab-container {
@@ -248,13 +250,9 @@ h1{
     }
 
     .parameter {
-        width: 100%;
+        width: 90%;
         max-width: none;
         margin-bottom: 1rem;
-    }
-
-    .weather-container {
-        margin-block: 0.5px; 
     }
 }
 
