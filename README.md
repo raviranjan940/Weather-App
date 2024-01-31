@@ -22,8 +22,8 @@ Experience SRW-Weather in action! Visit our live demo at [SRW-Weather Demo](http
 6. Stay ahead of the weather curve with SRW-Weather!
 
 **Technologies Used:**
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 - OpenWeatherMap API for weather data
 
